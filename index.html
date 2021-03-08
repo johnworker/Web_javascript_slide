@@ -14,7 +14,7 @@
     <!-- 寫法：#slider-box>(.slider-item>h1)*3 -->
     <div id="slider-box">
         <!-- 輪播圖內的項目，圖片與內容 -->
-        <div class="slider-item">
+        <div class="slider-item slider-active">
             <h1>衣服 1</h1>
         </div>
         <div class="slider-item">
@@ -30,11 +30,13 @@
         <!-- 點點 -->
         <!-- 寫法：#slider-dots>(span.slider-dots)*3 -->
         <div id="slider-dots">
-            <span class="slider-dots"></span>
-            <span class="slider-dots"></span>
-            <span class="slider-dots"></span>
+            <span class="slider-dot slider-dot-active"></span>
+            <span class="slider-dot"></span>
+            <span class="slider-dot"></span>
         </div>
     </div>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>
