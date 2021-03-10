@@ -83,7 +83,6 @@ for (let i = 0; i < dots.length; i++) {
 var box = document.getElementById("slider-box");
 var interval = box.getAttribute("data-s-interval");
 
-var interval =3000;
 
 function autoPlay() {
     next();
