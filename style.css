@@ -64,7 +64,7 @@
   background-image: url(./img/item10.jpg);
 }
 
-#slider-box h1 {
+#slider-box h2 {
   color: #fff;
   font-size: 72px;
   padding: 150px 100px;
@@ -78,7 +78,6 @@
 #slider-box #slider-prev, #slider-box #slider-next {
   width: 30px;
   height: 50px;
-  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 50%;
   cursor: pointer;
