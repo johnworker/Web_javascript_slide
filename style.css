@@ -11,6 +11,18 @@
   position: relative;
 }
 
+@media screen and (max-width: 1024px) {
+  #slider-box {
+    height: 85vh !important;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #slider-box {
+    height: 100vh;
+  }
+}
+
 #slider-box .slider-item {
   height: 100vh;
   -webkit-animation-name: slider-item;
