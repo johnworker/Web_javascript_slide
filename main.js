@@ -80,13 +80,13 @@ for (let i = 0; i < dots.length; i++) {
 }
 
 // 自動撥放
-var box = document.getElementById("slider-box");
-var interval = box.getAttribute("data-s-interval");
-
-
-function autoPlay() {
-    next();
-}
+// var box = document.getElementById("slider-box");
+// var interval = box.getAttribute("data-s-interval");
+// 
+// 
+// function autoPlay() {
+    // next();
+// }
 
 // 計時器 = 設定間隔(函式,間隔時間)
 var timer = setInterval(autoPlay, interval);
