@@ -5,7 +5,7 @@ var nextBtn = document.querySelector("#slider-next");
 var prevBtn = document.querySelector("#slider-prev");
 
 // 取得所有的輪播項目
-var items = document.getElementById("slider-item")
+var items = document.querySelector("slider-item")
 
 // 輸出輪播項目的數量
 // console.log(items.length);
