@@ -51,7 +51,7 @@ function showItem () {
 }
 
 // 取得所有點點
-var dots = document.getElementsByClassName("slider-dot");
+var dots = document.querySelector("slider-dot");
 
 // 顯示點點
 function showDot() {
@@ -101,6 +101,6 @@ function resetTimer() {
 
 var showdots = box.getAttribute("data-s-showdots");
 if (showdots == "false") {
-    var dots = document.getElementById("slider-dots");
+    var dots = document.querySelector("slider-dots");
     dots.style["display"] = "none";
 }
