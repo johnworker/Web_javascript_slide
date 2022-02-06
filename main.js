@@ -5,7 +5,7 @@ var nextBtn = document.querySelector("#slider-next");
 var prevBtn = document.querySelector("#slider-prev");
 
 // 取得所有的輪播項目
-var items = document.getElementsByClassName("slider-item")
+var items = document.querySelector("slider-item")
 
 // 輸出輪播項目的數量
 // console.log(items.length);
@@ -80,7 +80,7 @@ for (let i = 0; i < dots.length; i++) {
 }
 
 // 自動撥放
-var box = document.getElementById("slider-box");
+var box = document.querySelector("slider-box");
 var interval = box.getAttribute("data-s-interval");
 
 
