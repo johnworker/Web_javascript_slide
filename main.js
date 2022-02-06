@@ -5,7 +5,7 @@ var nextBtn = document.querySelector("#slider-next");
 var prevBtn = document.querySelector("#slider-prev");
 
 // 取得所有的輪播項目
-var items = document.querySelector("slider-item")
+var items = document.getElementById("slider-item")
 
 // 輸出輪播項目的數量
 // console.log(items.length);
@@ -80,7 +80,7 @@ for (let i = 0; i < dots.length; i++) {
 }
 
 // 自動撥放
-var box = document.querySelector("slider-box");
+var box = document.getElementById("slider-box");
 var interval = box.getAttribute("data-s-interval");
 
 
@@ -101,6 +101,6 @@ function resetTimer() {
 
 var showdots = box.getAttribute("data-s-showdots");
 if (showdots == "false") {
-    var dots = document.querySelector("slider-dots");
+    var dots = document.getElementById("slider-dots");
     dots.style["display"] = "none";
 }
