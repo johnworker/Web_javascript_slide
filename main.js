@@ -5,7 +5,7 @@ var nextBtn = document.querySelector("#slider-next");
 var prevBtn = document.querySelector("#slider-prev");
 
 // 取得所有的輪播項目
-var items = document.querySelector("slider-item")
+var items = document.getElementsByClassName("slider-item")
 
 // 輸出輪播項目的數量
 // console.log(items.length);
@@ -13,7 +13,7 @@ var items = document.querySelector("slider-item")
 // 下一張按鈕的功能
 function next(){
     index++;
-    // 如果編號是 項目的數量 就將編號改為玲
+    // 如果編號是 項目的數量 就將編號改為 零
     if (index == items.length) {
         index = 0;
     }
@@ -51,7 +51,7 @@ function showItem () {
 }
 
 // 取得所有點點
-var dots = document.querySelector("slider-dot");
+var dots = document.getElementsByClassName("slider-dot");
 
 // 顯示點點
 function showDot() {
